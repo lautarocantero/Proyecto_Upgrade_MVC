@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Upgrade</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/styles.css" />
+    <link rel="stylesheet" href="~/css/carrito.css" />
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1 class="titulo">Upgrade</h1>
+            <div class="barra">
+                <nav class="navegacion">
+                    <ul class="navegacion-principal">
+                        <li class="pagina">
+                            <a class="nav-link caja" asp-area="" asp-controller="Home" asp-action="Index">
+                                Productos
+                            </a>
+                        </li>
+                        <li class="pagina">
+                            <a class="nav-link caja" asp-area="" asp-controller="Productos" asp-action="Armar">
+                                Armá tu pc
+                            </a>
+                        </li>
+                        <li class="pagina">
+                            <a class="nav-link caja" asp-area="" asp-controller="Usuarios" asp-action="Carrito">
+                                Mi Carrito
+                            </a>
+                        </li>
+                        <li class="pagina">
+                            <a class="nav-link caja" asp-area="" asp-controller="Usuarios" asp-action="Index">Mi cuenta</a>
+                        </li>
+                        <li class="pagina">
+                            <a class="nav-link caja" asp-area="" asp-controller="Usuarios" asp-action="Ayuda">
+                                Ayuda
+                            </a>
+                        </li>
+                        <li class="pagina">
+                            <a class="nav-link caja" asp-area="" asp-controller="Productos" asp-action="Index">
+                                Admin
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" id="carrito">
+                                <i class="fas fa-shopping-cart carrito"></i>
+                                <ul class="submenu">
+                                    <table id="lista-carrito">
+                                        <thead>
+                                            <tr>
+                                                <th class="carritoHeader">Imagen</th>
+                                                <th class="carritoHeader">Nombre</th>
+                                                <th class="carritoHeader">Precio</th>
+                                                <th class="carritoHeader" colspan="2">Cantidad</th>
+                                                <!-- <th class="carritoHeader"></th> -->
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                        <tfoot>
+                                            <tr>
+                                                <td class="carritoElemento carritoFooter vaciar"><a href="#" id="vaciar-carrito" class="button">Vaciar carrito</a></td>
+                                                <td class="carritoElemento carritoFooter" colspan="2">total </td>
+                                                <td class="carritoElemento carritoFooter" id="suma" colspan="2"></td>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+
+                                </ul>
+
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        @*<div class="hero"></div>*@
+        <img src="~/imagenes/hero-1.jpg" />
+    </header>
+        <main role="main">
+            @RenderBody()
+        </main>
+    
+    <footer class="footer">
+        &copy Lautaro Cantero FreeLancer
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="/js/site.js"></script>
+    <script src="~/js/javita.js"></script>
+    <script src="https://kit.fontawesome.com/8206a300c4.js" crossorigin="anonymous"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
+
+@*<p>hola</p>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Upgrade</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Productos" asp-action="Index">Productos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>*@

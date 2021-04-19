@@ -1,0 +1,89 @@
+﻿@model IEnumerable<Upgrade.Models.Producto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="armar-equipo">
+    <div class="componentes">
+        <div class="armar-contenedor"><p>Auriculares</p></div>
+        <div class="armar-contenedor"><p>Monitor</p></div>
+        <div class="armar-contenedor"><p>Teclado</p></div>
+        <div class="armar-contenedor"><p>Mouse</p></div>
+        <div class="armar-contenedor"><p>Ram</p></div>
+        <div class="armar-contenedor"><p>Disco duro</p></div>
+    </div>
+</div>
+<div class="seleccion-equipo">
+
+    <form action="#" method="POST" class="formulario-equipo">
+
+        <fieldset>
+            <legend>Componentes</legend>
+            <div class="componentes-campos">
+                <label for="auriculares">
+                    Auriculares
+                </label>
+                <select name="Auriculares" id="auriculares">
+                    @foreach (var item in Model)
+                    {
+                        <option value="@Html.DisplayFor(modelItem => item.Tipo)">@Html.DisplayFor(modelItem => item.Titulo)</option>
+                    }
+                </select>
+
+                <label for="monitor">
+                    Monitor
+                </label>
+                <select name="Monitor" id="monitor">
+                    @foreach (var item in Model)
+                    {
+                        <option value="@Html.DisplayFor(modelItem => item.Tipo)">@Html.DisplayFor(modelItem => item.Titulo)</option>
+                    }
+                </select>
+
+                <label for="teclado">
+                    Teclado
+                </label>
+                <select name="Teclado" id="teclado">
+                    @foreach (var item in Model)
+                    {
+                        <option value="@Html.DisplayFor(modelItem => item.Tipo)">@Html.DisplayFor(modelItem => item.Titulo)</option>
+                    }
+                </select>
+
+                <label for="mouse">
+                    Mouse
+                </label>
+                <select name="Mouse" id="mouse">
+                    @foreach (var item in Model)
+                    {
+                        <option value="@Html.DisplayFor(modelItem => item.Tipo)">@Html.DisplayFor(modelItem => item.Titulo)</option>
+                    }
+                </select>
+
+                <label for="ram">
+                    Ram
+                </label>
+                <select name="Ram" id="ram">
+                    @foreach (var item in Model)
+                    {
+                        <option value="@Html.DisplayFor(modelItem => item.Tipo)">@Html.DisplayFor(modelItem => item.Titulo)</option>
+                    }
+                </select>
+
+                <label for="discoduro">
+                    Disco_Duro
+                </label>
+                <select name="Disco_Duro" id="discoduro">
+                    @foreach (var item in Model)
+                    {
+                        <option value="@Html.DisplayFor(modelItem => item.Tipo)">@Html.DisplayFor(modelItem => item.Titulo)</option>
+                    }
+                </select>
+            </div>
+        </fieldset>
+        <input type="submit" class="botonCatalogo" value="Armar Juego" />
+
+    </form>
+
+</div>

@@ -1,0 +1,150 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "imagen": "/build/img/auricular-hyperx-cloud-stinger.webp",
+            "nombre": "Hyperx Cloud Stinger Core 7.1",
+            "precio": 6790,
+            "tipo": "auricular"
+
+        },
+        {
+            "id": 2,
+            "imagen": "/build/img/auricular-redragon-h510-1.webp",
+            "nombre": "Redragon H510 Zeus",
+            "precio": 8499,
+            "tipo": "auricular"
+
+        },
+        {
+            "id": 3,
+            "imagen": "/build/img/auricular-Soul-Crush-Sound-Xh100.webp",
+            "nombre": "Soul Crush Sound Xh100",
+            "precio": 3099,
+            "tipo": "auricular"
+
+        },
+        {
+            "id": 4,
+            "imagen": "/build/img/auricular-logitech-g430.webp",
+            "nombre": "Logitech g430",
+            "precio": 3500,
+            "tipo": "auricular"
+
+        },
+        {
+            "id": 5,
+            "imagen": "/build/img/auricular-Onikuma-K9.webp",
+            "nombre": "Onikuma k9",
+            "precio": 6200,
+            "tipo": "auricular"
+
+        },
+        {
+            "id": 6,
+            "imagen": "/build/img/teclado-Redragon-Kumara-K552.webp",
+            "nombre": "Redragon Kumara K552",
+            "precio": 5499,
+            "tipo": "teclado"
+
+        },
+        {
+            "id": 7,
+            "imagen": "/build/img/teclado-Redragon-Yama-K550.webp",
+            "nombre": "Redragon Yama K550",
+            "precio": 8560,
+            "tipo": "teclado"
+
+        },
+        {
+            "id": 8,
+            "imagen": "/build/img/teclado-genius-scorpion-k8-0.webp",
+            "nombre": "Genius GX Gaming Scorpion K8",
+            "precio": 2170,
+            "tipo": "teclado"
+
+        },
+        {
+            "id": 9,
+            "imagen": "/build/img/teclado-Redragon-Draconic-K530.webp",
+            "nombre": "Redragon Draconic K530",
+            "precio": 7999,
+            "tipo": "teclado"
+
+        },
+        {
+            "id": 10,
+            "imagen": "/build/img/teclado-Soul-XK700.webp",
+            "nombre": "Soul XK700",
+            "precio": 1595,
+            "tipo": "teclado"
+
+        },
+        {
+            "id": 11,
+            "imagen": "/build/img/mouse-HyperX-FPS-Pro-Pulsefire.webp",
+            "nombre": "HyperX FPS Pro Pulsefire",
+            "precio": 4942,
+            "tipo": "mouse"
+
+        },
+        {
+            "id": 12,
+            "imagen": "/build/img/mouse-Soul-XM550-GAME-XM550.webp",
+            "nombre": "Soul XM550 GAME-XM550",
+            "precio": 1430,
+            "tipo": "mouse"
+
+        },
+        {
+            "id": 13,
+            "imagen": "/build/img/mouse-Onikuma-Cw905.webp",
+            "nombre": "Onikuma Cw905",
+            "precio": 2490,
+            "tipo": "mouse"
+
+        },
+        {
+            "id": 14,
+            "imagen": "/build/img/mouse-Razer- DeathAdder-Elite.webp",
+            "nombre": "Razer DeathAdder Elite",
+            "precio": 3999,
+            "tipo": "mouse"
+
+        },
+        {
+            "id": 15,
+            "imagen": "/build/img/mouse-redragon-king-cobra.webp",
+            "nombre": "king cobra",
+            "precio": 5190,
+            "tipo": "mouse"
+
+        },
+        {
+            "id": 16,
+            "imagen": "/build/img/memoria-HyperX-Fury-Black-DDR4-2400MhZ.webp",
+            "nombre": "HyperX Fury Black DDR4 2400MhZ",
+            "precio": 5599,
+            "tipo": "memoria"
+
+        },
+        {
+            "id": 17,
+            "imagen": "/build/img/memoria-corsair-4gb-ddr4-3.webp",
+            "nombre": "Corsair 4gb ddr4 3",
+            "precio": 5899,
+            "tipo": "memoria"
+
+        },
+        {
+            "id": 18,
+            "imagen": "/build/img/memoria-hyperx-fury-blue-8gb-1600mhz-ddr3.webp",
+            "nombre": "hyperx fury blue 8gb 1600mhz ddr3",
+            "precio": 6699,
+            "tipo": "memoria"
+
+        }
+
+    ]
+
+}

@@ -1,0 +1,24 @@
+USE Productos
+INSERT INTO Productos (Titulo,Descripcion,Precio,Marca,Tipo) VALUES ('Hyperx Cloud Stinger Core 7.1','auricular Hyperx Cloud Stinger Core 7.1','6790','hyperx','auricular');
+INSERT INTO Productos (Titulo,Descripcion,Precio,Marca,Tipo) VALUES ('Redragon H510 Zeus','auricular descripcion','8490','redragon','auricular');
+INSERT INTO Productos (Titulo,Descripcion,Precio,Marca,Tipo) VALUES ('Soul Crush Sound Xh100','auricular descripcion','3099','nose','auricular');
+INSERT INTO Productos (Titulo,Descripcion,Precio,Marca,Tipo) VALUES ('Logitech g430','auricular descripcion','3500','logitech','auricular');
+INSERT INTO Productos (Titulo,Descripcion,Precio,Marca,Tipo) VALUES ('Onikuma k9','auricular descripcion','6200','hyperx','auricular');
+
+INSERT INTO Productos (Titulo,Descripcion,Precio,Marca,Tipo) VALUES ('Redragon Kumara K552','teclado descripcion','5490','redragon','teclado');
+INSERT INTO Productos (Titulo,Descripcion,Precio,Marca,Tipo) VALUES ('Redragon Yama K550','teclado descripcion','8560','redragon','teclado');
+INSERT INTO Productos (Titulo,Descripcion,Precio,Marca,Tipo) VALUES ('Genius GX Gaming Scorpion K8','teclado descripcion','2170','genius','teclado');
+INSERT INTO Productos (Titulo,Descripcion,Precio,Marca,Tipo) VALUES ('Redragon Draconic K530','teclado descripcion','7999','redragon','teclado');
+INSERT INTO Productos (Titulo,Descripcion,Precio,Marca,Tipo) VALUES ('Soul XK700','teclado descripcion','1595','nose','teclado');
+
+INSERT INTO Productos (Titulo,Descripcion,Precio,Marca,Tipo) VALUES ('HyperX FPS Pro Pulsefire','mouse descripcion','4992','hyperx','mouse');
+INSERT INTO Productos (Titulo,Descripcion,Precio,Marca,Tipo) VALUES ('Soul XM550 GAME-XM550','mouse descripcion','1430','nose','mouse');
+INSERT INTO Productos (Titulo,Descripcion,Precio,Marca,Tipo) VALUES ('Onikuma Cw905','mouse descripcion','2490','nose','mouse');
+INSERT INTO Productos (Titulo,Descripcion,Precio,Marca,Tipo) VALUES ('Razer DeathAdder Elite','mouse descripcion','3999','nose','mouse');
+INSERT INTO Productos (Titulo,Descripcion,Precio,Marca,Tipo) VALUES ('king cobra','mouse descripcion','5190','nose','mouse');
+
+INSERT INTO Productos (Titulo,Descripcion,Precio,Marca,Tipo) VALUES ('HyperX Fury Black DDR4 2400MhZ','memoria descripcion','5590','hyperx','memoria');
+INSERT INTO Productos (Titulo,Descripcion,Precio,Marca,Tipo) VALUES ('Corsair 4gb ddr4 3','memoria descripcion','5890','nose','memoria');
+INSERT INTO Productos (Titulo,Descripcion,Precio,Marca,Tipo) VALUES ('hyperx fury blue 8gb 1600mhz ddr3','memoria descripcion','6699','hyperx','memoria');
+
+

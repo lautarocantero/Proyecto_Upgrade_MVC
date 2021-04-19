@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Upgrade.Models.Producto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="barra-secundaria">
+
+    <div class="informacion">
+        <h2 class="subtitulo">Nuestros productos</h2>
+        <div class="buscador">
+            <label for="variedad">
+                Filtrar <i class="fas fa-search"></i>
+            </label>
+            <select name="variedad" id="variedad">
+                @foreach (var item in Model)
+                {
+                    <option value="@Html.DisplayFor(modelItem => item.Tipo)">@Html.DisplayFor(modelItem => item.Tipo)</option>
+                }
+            </select>
+        </div>
+    </div>
+
+    <div class="video">
+        <video class="video_buscador" controls autoplay muted loop>
+            <source src="/imagenes/vertical_glowing_final.mp4" type="video/mp4">
+            <source src="/imagenes/vertical_glowing_final.ogg" type="video/ogg">
+            <source src="/imagenes/vertical_glowing_final.webm" type="video/webm">
+        </video>
+    </div>
+
+
+
+</div>
+
+<main class="main">
+
+    <div id="expositorio" class="expositorio">
+
+        @foreach (var item in Model)
+        {
+            <div class="producto">
+                <div class="producto-imagen">
+                    <img class="imagen" src="~/imagenes/auricular-hyperx-cloud-stinger.jpeg" />
+                </div>
+                <div class="producto_informacion">
+                    <p class="producto_nombre">@Html.DisplayFor(modelItem => item.Titulo)</p>
+                    <p class="producto_precio">$@Html.DisplayFor(modelItem => item.Precio)</p>
+                </div>
+                <button class="botonCarrito agregarCarrito" data-id="1">Agregar al Carrito <i class="fas fa-shopping-cart carrito agregarCarrito"></i> </button>
+            </div> <!--FIN DEL PRODUCTO-->
+        }
+
+
+    </div>
+</main>
